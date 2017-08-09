@@ -23,13 +23,13 @@
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=News+Cycle:400,700|Roboto+Slab" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <header>
-        <img class="logo logo--horz" src="/assets/images/logo-horizontal.svg" alt="Tulsa UX" />
-        <img class="logo logo--vert" src="/assets/images/logo-vertical.svg" alt="Tulsa UX" />
+        <img class="logo logo--horz" src="assets/images/logo-horizontal.svg" alt="Tulsa UX" />
+        <img class="logo logo--vert" src="assets/images/logo-vertical.svg" alt="Tulsa UX" />
         <h1>User&nbsp;Experience <span>User&nbsp;Group</span></h1>
     </header>
     <main>
@@ -38,11 +38,11 @@
                 <div class="col">
                     <h2><i class="fa fa-calendar"></i> Next Meetup</h2>
                     <p>Our next meetup is on Tuesday, August 8th. </p>
-                    <p>This meeting, we will have <a href="https://twitter.com/djabber">Francis Djabri</a> from Mozilla speak about his overall approach to conducting user research and some of the methods that he has found useful throughout his career.</p>
+                    <p>This meeting, we will have <a href="https://twitter.com/djabber" target="_blank">Francis Djabri</a> from Mozilla speak about his overall approach to conducting user research and some of the methods that he has found useful throughout his career.</p>
                     <p>Francis is a user research for Mozilla, based out of their San Francisco office. He is currently researching on how we can make the experience of advertising on the web better for people. </p>
                     <p>Learn more about the meeting, what we'll discuss and more: </p>
-                    <a class="btn btn--red" target="_blank" href="https://www.meetup.com/Tulsa-UX-User-Group/events/241387945/">RSVP</a>
-                    <a class="btn btn--ghost-red" target="_blank" href="https://www.meetup.com/Tulsa-UX-User-Group/events/">See all events</a>
+                    <a class="btn btn--red" target="_blank" href="https://www.meetup.com/Tulsa-UX-User-Group/events/241387945/" target="_blank">RSVP</a>
+                    <a class="btn btn--ghost-red" target="_blank" href="https://www.meetup.com/Tulsa-UX-User-Group/events/" target="_blank">See all events</a>
                 </div>
             </div>
         </section>
@@ -72,21 +72,19 @@
                     <h2><i class="fa fa-gears"></i> Sponsors</h2>
                     <ul class="c-sponsors">
                         <li class="c-sponsors__card">
-                            <div class="c-sponsors__card__logo"><img src='assets/media/sponsor-techlahoma.jpg' alt="Techlahoma logo" /></div>
+                            <div class="c-sponsors__card__logo"><a target="_blank" href="https://www.techlahoma.org/"><img src='assets/media/sponsor-techlahoma.jpg' alt="Techlahoma logo" /></a></div>
                             <a target="_blank" href="https://www.techlahoma.org/">Techlahoma</a>
                             <p>Meetup Sponsor</p>
                         </li>
                         <li class="c-sponsors__card">
-                            <div class="c-sponsors__card__logo"><img src='assets/media/sponsor-36n.jpg' alt="36&deg; North logo" /></div>
+                            <div class="c-sponsors__card__logo"><a target="_blank" href="https://36degreesnorth.co"><img src='assets/media/sponsor-36n.jpg' alt="36&deg; North logo" /></a></div>
                             <a target="_blank" href="https://36degreesnorth.co">36&deg; North Co&#8209;working&nbsp;Space</a>
                             <p>Event Space Sponsor</p>
-
                         </li>
                         <li class="c-sponsors__card">
-                            <div class="c-sponsors__card__logo"><img src='assets/media/sponsor-teksystems.jpg' alt="TEKsystems logo" /></div>
+                            <div class="c-sponsors__card__logo"><a target="_blank" href="https://www.teksystems.com/"><img src='assets/media/sponsor-teksystems.jpg' alt="TEKsystems logo" /></a></div>
                             <a target="_blank" href="https://www.teksystems.com/">TEKsystems Digital</a>
                             <p>Food/Refreshments Sponsor</p>
-
                         </li>
                     </ul>
                 </div>
@@ -192,7 +190,7 @@
                     </ul>
                 </div><!--
                 --><div class="c-footer__copyright">
-                    Copyright &copy; 2017 Copyright Tulsa UX. All&nbsp;Rights&nbsp;Reserved.
+                    Copyright &copy; <span class="copy-date"></span> Tulsa UX. All&nbsp;Rights&nbsp;Reserved.
                 </div>
 
             </div>
@@ -200,6 +198,8 @@
     </footer>
 
     <script src="assets/js/analytics.js"></script>
+    <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
